@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+<ImageView
+
+    android:id="@+id/photo_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    android:src="@drawable/bondi" />
+
+<TextView
+
+android:id="@+id/title"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#1976d2"
+android:gravity="center"
+android:padding="10dp"
+android:text="Bondi Icebergs"
+android:textColor="#ffffff"
+android:textSize="24sp"
+android:textStyle="bold" />
+
+<TextView
+
+android:id="@+id/description"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#63a4ff"
+android:gravity="center"
+android:padding="10dp"
+android:text="Located at the southern end of Bondi Beach, Bondi Icebergs Club is an international landmark, and no trip to Sydney is complete without a visit to our pool and clubhouse.Bondi Icebergs has been the home of Winter swimming since 1929 and our famous pool is open to visitors all year round"
+android:textColor="#ffffff"
+android:textSize="15sp"
+android:textStyle="bold" />
+
+<ScrollView
+
+android:id="@+id/contact"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#004ba0"
+android:gravity="center"
+android:padding="10dp"
+android:text="Address: 1 Notts Ave Bondi Beach 2026 \n Contact: info@icebergs.com.au \n Phone: (02) 9130 3120"
+android:textColor="#ffffff"
+android:textSize="12sp"
+android:textStyle="bold" />
+
+
+    </LinearLayout>
+
